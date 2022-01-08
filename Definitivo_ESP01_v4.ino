@@ -6,11 +6,11 @@
 WiFiUDP ntpUDP;
 
 //  token do blynk
-char auth[] = "gzWzcUaQSpsXCdqKT7_IprIjXubEFrf7";
+char auth[] = "Código fornecido pelo BLINK";
 
 // conexão e senha do WiFi
-char ssid[] = "alexejeni";
-char pass[] = "630597620";
+char ssid[] = "rede Wifi";
+char pass[] = "Senha Wifi";
 
 //Provedor de NTP
 NTPClient timeClient(ntpUDP, "br.pool.ntp.org", 75600, 60000);
